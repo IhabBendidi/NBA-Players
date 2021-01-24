@@ -17,6 +17,7 @@ Install dependencies, we use ${REPO_ROOT_DIR} to represent the working directory
 ```
 cd ${REPO_ROOT_DIR}
 conda install pytorch==1.5.1 torchvision==0.6.1 cudatoolkit=10.2 -c pytorch
+pip install torch==1.5.1 torchvision==0.6.1
 pip install -r requirements.txt
 ```
 
