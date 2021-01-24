@@ -35,7 +35,7 @@ python setup.py install
 ### Mesh evaluation dependencies
 Please install [open3d 0.9.0](http://www.open3d.org/) for ICP. You also need to install the Chamfer Distance and Earth-Mover Distance CUDA extension:
 ```
-pip install https://github.com/intel-isl/Open3D/releases/download/v0.9.0/open3d-0.9.0.0-cp37-cp37m-manylinux1_x86_64.whl
+pip install open3d==0.10.0
 cd img_to_mesh/extensions/chamfer
 python setup.py install
 cd img_to_mesh/extensions/emd
